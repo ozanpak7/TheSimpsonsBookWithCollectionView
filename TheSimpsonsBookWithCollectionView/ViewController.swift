@@ -32,11 +32,23 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         let maggie = Simpson(simpsonName: "Maggie Simpson", simpsonJob: "Baby", simpsonAge: 1,  simpsonImage: UIImage(named: "maggie")!)
         
+        let selma = Simpson(simpsonName: "Selma Bouvier", simpsonJob: "Baby", simpsonAge: 41,  simpsonImage: UIImage(named: "selma")!)
+        
+        let patty = Simpson(simpsonName: "Patty Bouvier", simpsonJob: "Baby", simpsonAge: 41,  simpsonImage: UIImage(named: "patty")!)
+        
+        let abraham = Simpson(simpsonName: "Abraham Simpson", simpsonJob: "Veteran", simpsonAge: 83,  simpsonImage: UIImage(named: "abraham")!)
+        
+        let jacqueline = Simpson(simpsonName: "Jacqueline Bouvier", simpsonJob: "Retired", simpsonAge: 80,  simpsonImage: UIImage(named: "jacqueline")!)
+        
         simpsonsList.append(homer)
         simpsonsList.append(marge)
         simpsonsList.append(bart)
         simpsonsList.append(lisa)
         simpsonsList.append(maggie)
+        simpsonsList.append(abraham)
+        simpsonsList.append(patty)
+        simpsonsList.append(selma)
+        simpsonsList.append(jacqueline)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
